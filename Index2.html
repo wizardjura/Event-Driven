@@ -16,13 +16,14 @@
     />
     <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="style.css" />
-    <title>Frontend Bootcamp</title>
+    <link rel="shortcut icon" type="image" href="img/addu123.png">
+    <title>AdDU Bootcamp</title>
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div class="container">
-        <a href="#" class="navbar-brand">Frontend Bootcamp</a>
+        <a href="#" class="navbar-brand">EVENT-DRIVEN PROGRAMMING 4-113</a>
 
         <button
           class="navbar-toggler"
@@ -88,7 +89,7 @@
 
     <!-- Boxes -->
     <!--BOXES-->
-<section class="p-5">
+<section class="p-5 ">
     <div class="container">
       <div class="row text-center g-4">
         <div class="col-md">
@@ -188,20 +189,21 @@
    </script>
 
     <!-- Learn Sections -->
-    <section id="learn" class="p-5">
+    <section id="learn" class="p-5 ">
         <div class="container">
           <div class="row align-items-center justify-content-between">
             <div class="col-md">
-              <img src="img/fundamentals.svg" class="img-fluid" alt="">
+              <img id="git" src="img/git2.png" class="img-fluid" alt="">
             </div>
             <div class="col-md" p-5>
-              <h2>Learn The Fundamentals</h2>
+              <h2>Github Repository</h2>
               <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quae velit, alias sed necessitatibus laboriosam!
+                <a href="https://github.com/wizardjura/Event-Driven"> <i>Event-Driven Ammalingan</i> </a>
               </p>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium rerum, quidem aliquam placeat odio fugit.</p>
-            <a href="#" class="btn btn-light mt-3"></a>
-            <i class="bi bi-chevron"></i>Read More
+              <p>For the source code of this website please visit the <b>github</b> link provided above.</p>
+            
+              <a href="#" class="btn btn-primary mt-3">
+            <i class="bi bi-chevron"></i>Read More</a>
             </div>
         </div>
         </div>
@@ -217,7 +219,7 @@
                   I want to learn more about Python programming language. Because in my whole study the only programming language that seems difficult to me is the Python Programming language.
                 </p>
                 <p>Learning this language will help us understand how some games or software/programs are created</p>
-              <a href="#" class="btn btn-light mt-3">
+              <a href="#" class="btn btn-primary mt-3">
               <i class="bi bi-chevron"></i>Read More
             </a>
               </div>
@@ -358,7 +360,7 @@
               </li>
               <li class="list-group-item">
                 <span class="fw-bold">Student Email:</span>
-                studentname@addu.edu.ph
+                cjcammalingan@addu.edu.ph
               </li>
             </ul>
           </div>
@@ -369,8 +371,10 @@
       </div>
     </section>
 
-    <!-- Modal -->
-    <div
+
+
+    <!--MODAL (ON PROCESS)
+   // <div
       class="modal fade"
       id="enroll"
       tabindex="-1"
@@ -424,7 +428,9 @@
         </div>
       </div>
     </div>
+    ON PROCESS -->
 
+    <!--MAP/LOCATION-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -437,7 +443,7 @@
 var map = new mapboxgl.Map({
 container: 'map',
 style: 'mapbox://styles/mapbox/streets-v11',
-center: [125.613416, 7.0718147 ],
+center: [125.613416, 7.0718147],
         zoom: 15,
 });
     </script>
